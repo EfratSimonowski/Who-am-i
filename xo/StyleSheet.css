@@ -1,0 +1,32 @@
+body, html {
+    background-color: paleturquoise;
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#{
+    margin:0;
+    padding:0;
+}
+.tic{
+    background-color:black;
+    width:200px;
+    height:200px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    box-shadow:4px 4px 8px 2px black();
+}
+
+.tic .btn {
+        background-color: white;
+        width:33%;
+        height:33%;
+        margin:auto;  
+}
+
+
